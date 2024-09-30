@@ -9,6 +9,19 @@ console.log("Aufgabe 1")
 // Es soll das Volumen eines Würfels in Quadratzentimeter (cm3) ausgegeben werden. Arbeiten Sie mit einem Objekt und sprechenden Eigenschaften.
 // Geben Sie das Volumen in einem Antwortsatz auf der Konsole aus.
 
+class Würfel{
+    constructor(){
+        this.Seitenlänge
+    }
+}
+
+let würfel = new würfel ()
+würfel.Seitenlänge = 2
+
+
+let volumen = Seitenlänge*Seitenlänge*Seitenlänge 
+console.log("Das Volumen beträgt ' + Volumen + ' cm3")
+
 
 
 
@@ -16,7 +29,11 @@ console.log("Aufgabe 1")
 // Wenn das Volumen 1000 oder mehr Quadratzentimeter beträgt soll eine Meldung auf der Konsole ausgegeben werden, die besagt,
 // dass das Volumen 1000 oder mehr Quadratzentimeter beträgt.
 
+let Volumen = 8;
 
+if(Volumen >= 1000){
+    console.log("Das ' + Volumen + ' ist ' + >= +' 1000 cm3 ")
+}
 
 
 
@@ -33,12 +50,22 @@ console.log("Aufgabe 2")
 // 2a)
 // Definieren Sie die class
 
+class Zeugnisse{
+    constructor(){
+        this.Notendurchschnitt
+        this.Fehlstunden
+        this.unenstuldigtefehlstunden
+        this.Sprache
+        this.Naturwissenschaften
+    }
+}
 
 
 // 2b)
 // Deklarieren, Instanziieren und Initialisieren Sie ein Objekt von der Zeignisklasse.
 
-
+let Zeugnisse = new Zeugnisse ()
+Zeugnisse.Fehlstunden = 4 
 
 
 // 2c)
